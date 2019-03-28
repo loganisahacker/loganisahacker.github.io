@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title> Speech to Text Resume Builder </title>
+    <link rel="stylesheet" href="./stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body onload="onload()">
+    <div id="bio">
+        <img src="portrait.jpeg" class="bio-element" style="width:36%; margin-left:32%; border-radius:50%;">    
+        <h2 class="bio-element" > Logan Nofsinger </h2>
+        <p style="font-style:italic; "class="bio-element"> Mechanical Engineering Student</p>
+        <p style="font-style:italic;" class="bio-element"> Vanderbilt University</p>
+        <p class="bio-element"> Email: lonofsinger@gmail.com </p>
+        <button class="bio-element" style="color:#182e56;" id="to_about"> About Me </button>
+        <button class="bio-element" style="color:#182e56;" id="to_projects"> Projects </button>
+        <button class="bio-element" style="color:#182e56;" id="to_resume"> Resume </button>
+    </div>
+
+    <div class="content-panel" id="about_me"> 
+        <h1> About Me </h1> 
+        <p> Hi, my name is Logan and I go to Vanderbilt. My girlfriend is awesome</p>
+    </div>
+    
+    <div class="content-panel" id="projects"> 
+        <h1> Featured Projects </h1> 
+        <p style="font-style:italic;"> For more projects, please contact me! </p> 
+        <br>
+        <div class="project-box">
+            <div class="project-description">
+                <h3> Project Title</h3>
+                <p>  Project orgnization</p>
+                <p>  Fall 2013</p>
+                <p> This is a long description of my involvement in this project yada yada yada. The end result yada. </p>
+            </div>
+
+            <div class="project-explanation">
+                <img class="project-image" src="CadForCallouts.png">
+            </div>
+        </div>
+        
+        <div class="project-box">
+            <div class="project-description">
+                <h3> Project Title</h3>
+                <p>  Project orgnization</p>
+                <p>  Fall 2032</p>
+                <p> This is a long description of my involvement in this project yada yada yada. The end result yada. </p>
+            </div>
+
+            <div class="project-explanation">
+                <img class="project-image" src="FrameAssembly2019.png">
+            </div>
+        </div>
+
+
+        <div class="project-box">
+            <div class="project-description">
+                <h3> Project Title</h3>
+                <p>  Project orgnization</p>
+                <p>  Fall 2032</p>
+                <p> This is a long description of my involvement in this project yada yada yada. The end result yada. </p>
+            </div>
+
+            <div class="project-explanation">
+                <img class="project-image" src="WristAssembly.png">
+            </div>
+        </div>
+    </div>
+    
+    <div class="content-panel" id="resume"> 
+        <h1> Resume</h1>
+        <embed src="Nofsinger_Logan_CV.pdf" style="width:100%; height:600px;"
+             type='application/pdf'>
+    </div>
+
+</body>
+</html>
