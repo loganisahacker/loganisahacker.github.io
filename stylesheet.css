@@ -89,6 +89,13 @@ hr {
     width:100%;
 }
 
+.project-image-half {
+    width:47%;
+    float: left;
+    margin:0;
+}
+
+
 button {
     height:60px; 
     background-color:white; 
