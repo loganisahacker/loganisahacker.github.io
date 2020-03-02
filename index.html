@@ -4,7 +4,7 @@
 <html lang="en">
 
 <head>
-    <title> Speech to Text Resume Builder </title>
+    <title> All About Logan </title>
     <link rel="stylesheet" href="./stylesheet.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="main.js"></script>
@@ -24,95 +24,131 @@
 
     <div class="content-panel" id="about_me"> 
         <h1> About Me </h1> 
-        <p> Hi, my name is Logan and I go to Vanderbilt. My girlfriend is teaching me html</p>
+        <p> Hi, my name is Logan. Here's some cool stuff.</p>
     </div>
     
    
 
     <div class="content-panel" id="projects"> 
         <h1> Featured Projects </h1> 
-        <p style="font-style:italic;"> For more projects, please contact me! </p> 
+        <p style="font-style:italic;"> Here are some of the most interesting problems I have come across. To learn more about them or to hear about more projects, please contact me! </p> 
         <br>
 
-        <div class="project-box">
+        <button class="titleButton" onclick="openClose('id01')"> <h3>How would you combine fluids in microgravity?</h3></button> 
+          <div id="id01" class="project-box">
             <div class="project-description">
-                <h3> Project Title</h3>
-                <p>  Project orgnization</p>
-                <p>  Fall 2032</p>
-                <p> This is a long description of my involvement in this project yada yada yada. The end result yada. </p>
+                <h3> UARZ_POC01 Manifold</h3>
+                <p>  Space Tango</p>
+                <p>  February 2020</p>
+                <p>  Combining two sample fluids and three washes, this manifold routes flows through sealed membranes in microgravity.</p>
             </div>
     
             <div class="project-explanation">
-                <img class="project-image" src="UFLA Routing Manifold.png">
+                <img class="project-image" style="padding-top: 10%;" src="UFLA Routing Manifold.png">
             </div>
         </div>
     
-        <div class="project-box">
+        <button class="titleButton" onclick="openClose('id02')"> <h3>How would you find water on Mars?</h3></button> 
+          <div id="id02" class="project-box">
             <div class="project-description">
-                <h3> Project Title</h3>
-                <p>  Project orgnization</p>
-                <p>  Fall 2032</p>
-                <p> This is a long description of my involvement in this project yada yada yada. The end result yada. </p>
+                <h3> Mining Robot Chassis </h3>
+                <p>  Vanderbilt NASA RMC</p>
+                <p>  2018-2019</p>
+                <p>  Led design and build of drive system for autonomous locomotion and support of bucket chain excavator and conveyor.</p>
             </div>
     
             <div class="project-explanation">
-                <img style="width:56%; float: left;" src="FrameAssembly2019.png">
-                <img style="width:42%; float: right;" src="RMC Robot Image.jpg">
+                <img style="width:56%; float: left;padding-top: 21%;" src="FrameAssembly2019.png">
+                <img style="width:42%; float: right;padding-top: 21%;" src="RMC Robot Image.jpg">
             </div>
         </div>
     
-        <div class="project-box">
+        <button class="titleButton" onclick="openClose('id04')"> <h3>How would you modernize electronics production?</h3></button> 
+          <div id="id04" class="project-box">
             <div class="project-description">
-                <h3> Project Title</h3>
-                <p>  Project orgnization</p>
-                <p>  Fall 2032</p>
-                <p> This is a long description of my involvement in this project yada yada yada. The end result yada. </p>
-            </div>
-    
-            <div class="project-explanation">
-                <img class="project-image" src="Flower Ring.JPG">
-            </div>
-        </div>
-
-        <div class="project-box">
-            <div class="project-description">
-                <h3> Project Title</h3>
-                <p>  Project orgnization</p>
-                <p>  Fall 2013</p>
-                <p> This is a long description of my involvement in this project yada yada yada. The end result yada. </p>
+                <h3> Capstone, DENSO Manufacturing</h3>
+                <p>  Vanderbilt Engineering</p>
+                <p>  2018-2019</p>
+                <p> Redesigned power transmission system for mobile five-axis robotic arm in electronics manufacturing facility. </p>
             </div>
 
             <div class="project-explanation">
-                <img class="project-image" src="CadForCallouts.png">
+                <img class="project-image" style="padding-top: 15%;" src="CadForCallouts.png">
             </div>
         </div>
         
-        <div class="project-box">
+        <button class="titleButton" onclick="openClose('id06')"><h3>How would you help amputees keep driving?</h3></button> 
+          <div id="id06" class="project-box">
             <div class="project-description">
-                <h3> Project Title</h3>
-                <p>  Project orgnization</p>
-                <p>  Fall 2032</p>
-                <p> This is a long description of my involvement in this project yada yada yada. The end result yada. </p>
+                <h3> Prosthetic Wrist Design</h3>
+                <p>  Vanderbilt Engineering</p>
+                <p>  Fall 2017</p>
+                <p>  Provides a solution for pronation in amputees through mechanical means. Three modes enable locking and free-rotation.</p>
             </div>
 
             <div class="project-explanation">
-                <img class="project-image" src="Clamp Comparison.png">
+                <img class="project-image" style="height:62.5%;width:62.5%;padding-left:18.75%;padding-top:5%;" src="Open Wrist.png">
+                <img class="project-image" style="height:62.5%;width:62.5%;padding-left:18.75%;" src="WristAssembly.png">
             </div>
         </div>
 
-
-        <div class="project-box">
+        <button class="titleButton" onclick="openClose('id05')"> <h3>How would you show your efficiency?</h3></button> 
+          <div id="id05" class="project-box">
             <div class="project-description">
-                <h3> Project Title</h3>
-                <p>  Project orgnization</p>
-                <p>  Fall 2032</p>
-                <p> This is a long description of my involvement in this project yada yada yada. The end result yada. </p>
+                <h3> Fractal Speed Challenge</h3>
+                <p>  Fractal Hardware</p>
+                <p>  November 2019</p>
+                <p>  Modeled clamp for injection molding from sketch in timed CAD challenge. 4 hours beginning to end. </p>
             </div>
 
             <div class="project-explanation">
-                <img class="project-image" src="WristAssembly.png">
-                <img class="project-image" src="Open Wrist.png">
+                <img class="project-image" style="padding-top: 20%;" src="Clamp Comparison.png">
             </div>
+        </div>
+
+        <button class="titleButton" onclick="openClose('id03')"> <h3>How would you make something special?</h3></button> 
+        <div id="id03" class="project-box">
+          <div class="project-description">
+              <h3> Just a ring</h3>
+              <p>  Solidworks</p>
+              <p>  Fall 2019</p>
+              <p> :) </p>
+          </div>
+  
+          <div class="project-explanation">
+              <img class="project-image" style="float:left;padding-top:7%;width:62.75%;" src="Flower Ring.PNG">
+              <img class="project-image" style="float:left;padding-top:7%;padding-left:2%;width:35.25%;" src="Ring Chirripo.jpg">
+          </div>
+      </div>
+
+
+        <button class="titleButton" onclick="openClose('id07')"> <h3>How would you help entrepreneurs get started?</h3></button> 
+        <div id="id07" class="project-box">
+            <div class="project-description">
+                <h3> Some Products <br> I Developed</h3>
+                <p>  T2 Design</p>
+                <p>  Summer 2019</p>
+                <p>  Injection-molded medical disposable </p>
+                <ul style="font-size:12px;"> 
+                    <li>Structural modelling and FEA for gussets, ribs, and reenforcement members</li>
+                    <li>Interfacing with medical adhesives</li>
+                    <li>Prototyped with 3D printing</li>
+                  </ul>
+            </div>
+
+            <div class="project-description" style="padding-top:12.5%; padding-left:3%;">
+                <p>  Hardware for electrical system installation </p>
+                <ul style="font-size:12px;"> 
+                    <li>Designed for traditional machining</li>
+                    <li>Developed novel swaged connection</li>
+                  </ul>
+                  <p>  Hair care accessory </p>
+                  <ul style="font-size:12px;"> 
+                      <li>Stamped, bent, and bead-rolled stainless steel body</li>
+                      <li>Overmolded with silicone rubber</li>
+                    </ul>
+            </div>
+            <img class="project-image" style="padding-top: 20%;width:20%;padding-left:2%;" src="T2-4.jpg">
         </div>
     </div>
     

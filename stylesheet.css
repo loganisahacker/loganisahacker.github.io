@@ -52,6 +52,7 @@ p {
     width:100%; 
     text-align:center;
     color:white; 
+    float:top;
 }
 
 h2 {
@@ -69,6 +70,8 @@ hr {
     display:inline-block;
     vertical-align:center;
     margin-bottom:15px;
+    display:none;
+    padding-top:1%;
 }
 
 .project-description {
@@ -103,4 +106,14 @@ button {
     padding:0px;
     font-size:30px;
     font-family: Courier, Helvetica, sans-serif;
+}
+
+.titleButton {
+    width:100%;
+    height:100px;
+}
+
+.titleButton:hover{
+   
+    opacity:.5;
 }
