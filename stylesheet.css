@@ -48,11 +48,10 @@ p {
 }
 
 .bio-element {
-    margin-top:5%;
+    margin-top:3%;
     width:100%; 
     text-align:center;
-    color:white; 
-    float:top;
+    color:white;   
 }
 
 h2 {
